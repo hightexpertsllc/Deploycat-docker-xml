@@ -1,0 +1,59 @@
+TERMS OF SERVICE AND END USER LICENSE AGREEMENT
+ 
+These Terms of Service and End User License Agreement ("Terms" or "EULA") constitute a legally binding agreement between you (the "User", "you", or "your") and Hightexperts LLC ("we", "us", or "our") regarding the use of our software, services, and related tools (collectively, the "Software" or "Service"). The Software is a desktop application, operating system image, and associated cloud services for managing and deploying game servers on your own hardware or infrastructure.
+ 
+By downloading, installing, accessing, or using the Software, you agree to be bound by these Terms. If you do not agree, do not install or use the Software.
+ 
+ 
+1. ACCEPTANCE OF TERMS
+ 
+By clicking "I Accept", installing, or using the Software, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree to these Terms, do not install or use the Software.
+ 
+ 
+2. LICENSE GRANT
+ 
+We grant you a limited, non-exclusive, non-transferable, revocable license to install and use the Software in accordance with these Terms and any applicable subscription terms. You may use the Software to manage and deploy game servers for your own use or for communities you participate in, including servers funded by donations or community contributions.
+ 
+You may not resell, sublicense, redistribute, or offer the Software itself as a hosted service or product without express written permission from Hightexperts LLC. "Unauthorized commercial use" means, but is not limited to: selling or reselling access to the Software as a product, offering the Software as part of a paid hosting service where the Software itself is the primary value being sold, white-labeling or rebranding the Software for resale, or redistributing the Software to third parties for a fee. Using the Software to manage your own servers, including community-funded servers, does not constitute unauthorized commercial use.
+ 
+DeployCat offers a fully unlocked 3-day free trial. No payment information is required to start the trial. Upon expiration of the trial, you must subscribe to a paid plan (monthly or annual) to continue using the Software. Your servers and worlds are preserved and will be available again once you subscribe.
+ 
+ 
+3. INTELLECTUAL PROPERTY AND OWNERSHIP
+ 
+The Software, including its code, design, assets, and all intellectual property rights therein, is and remains the exclusive property of Hightexperts LLC and its licensors. These Terms do not transfer any ownership rights to you. You may not reverse engineer, decompile, disassemble, or attempt to derive the source code of the Software without express written permission.
+ 
+ 
+4. THIRD-PARTY TRADEMARKS
+ 
+DeployCat is an independent software tool. It is not an official Minecraft product and is not approved by or associated with Mojang or Microsoft. DeployCat is not endorsed by or associated with Riot Games, Hytale, Valve, or any other game publisher. All game names and trademarks are the property of their respective owners.
+ 
+Tailscale is a trademark of Tailscale Inc. DeployCat is not affiliated with, endorsed by, or sponsored by Tailscale Inc. The DeployCat installer can optionally install the official, unmodified Tailscale for Windows package to power the DeployCat Connect feature; use of the Tailscale service is subject to Tailscale's own Terms of Service and requires your own Tailscale account.
+ 
+ 
+5. THIRD-PARTY SOFTWARE
+ 
+This Software includes third-party open-source components, which are licensed under their respective licenses:
+ 
+  - Debian GNU/Linux (various GPL and other licenses) — https://www.debian.org
+  - Linux kernel (GPLv2) — https://www.kernel.org
+  - Node.js runtime (MIT License) — https://nodejs.org
+  - Eclipse Temurin JRE 21 (GPLv2 with Classpath Exception) — https://adoptium.net
+  - miniupnpc (BSD 3-Clause License) — https://github.com/miniupnp/miniupnp
+    Copyright (c) 2005-2026 Thomas BERNARD. All rights reserved.
+  - nat-upnp (MIT License) — https://github.com/indutny/nat-upnp
+  - Tailscale (BSD 3-Clause License) — https://github.com/tailscale/tailscale
+    Copyright (c) Tailscale Inc & contributors. All rights reserved.
+ 
+These components are provided "as is" without warranty of any kind, express or implied, including but not limited to the implied warranties of merchantability and fitness for a particular purpose. The above copyright notices and permission notices shall be included in all copies or substantial portions of the Software.
+ 
+ 
+6. USER RESPONSIBILITIES
+ 
+  - You are solely responsible for your game servers, worlds, data, backups, configurations, and all content hosted or managed through the Software.
+ 
+  - You must maintain your own complete and regular backups of all servers, worlds, and data. We strongly recommend independent backups stored separately.
+ 
+  - You agree to comply with all applicable game publisher EULAs, including but not limited to Mojang/Microsoft's Minecraft EULA, and all applicable laws when running servers.
+ 
+  - You are responsible for the security, maintenance, and proper operation of your own hardware and infrastructure.
