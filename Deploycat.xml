@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>DeployCat</Name>
+  <Repository>meowsers/deploycat:latest</Repository>
+  <Registry>https://hub.docker.com/r/meowsers/deploycat/</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://discord.gg/deploycat</Support>
+  <Project>https://deploycat.app</Project>
+  <Overview>DeployCat is a game server manager that makes it easy to create, configure, and manage multiple game servers from a web interface. Supports Minecraft (Java + Bedrock), Steam games (ARK, The Isle, Rust, Palworld, Satisfactory, CS2, Valheim, V Rising, and 25+ more), with SteamCMD pre-installed and automatic UPnP port forwarding. Free 3-day trial, then paid subscription required.</Overview>
+  <Category>GameServers:</Category>
+  <WebUI>http://[IP]:[PORT:8732]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/hightexpertsllc/Deploycat-docker-xml/main/Deploycat.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/hightexpertsllc/Deploycat-docker-xml/main/icon.png</Icon>
+  <ExtraParams>--stop-timeout=40 --device=/dev/net/tun --cap-add=NET_ADMIN</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1663123456</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Data Location" Target="/data" Default="/mnt/user/appdata/DeployCat" Mode="rw" Display="always" Required="true" Type="Path" Description="Where DeployCat stores ALL data (servers, config, backups, SteamCMD, Java, logs). Single mount point.">/mnt/user/appdata/DeployCat</Config>
+  <Config Name="WebUI Port" Target="PORT" Default="8732" Mode="" Display="always" Required="true" Type="Variable" Description="Port for the DeployCat web interface.">8732</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Display="always" Required="false" Type="Variable" Description="User ID for file ownership. Default 99 (nobody) matches Unraid convention.">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Display="always" Required="false" Type="Variable" Description="Group ID for file ownership. Default 100 (users) matches Unraid convention.">100</Config>
+  <Config Name="TZ" Target="TZ" Default="UTC" Display="always" Required="false" Type="Variable" Description="Timezone for scheduling (backup schedules, start/stop schedules), e.g. America/New_York. Without this, schedules run in UTC.">UTC</Config>
+  <Config Name="Host IP" Target="HOST_IP" Default="" Display="advanced" Required="false" Type="Variable" Description="Optional: Your Unraid server's LAN IP. Shown in DeployCat so you know what IP players use to connect."></Config>
+  <Config Name="Host Tailscale Socket" Target="/var/run/tailscale" Default="/var/run/tailscale" Mode="rw" Display="advanced" Required="false" Type="Path" Description="If your Unraid host runs Tailscale, map its socket directory here so DeployCat uses the host's daemon instead of spawning a conflicting one. Leave default if unsure. Only needed when host networking is enabled AND the host runs Tailscale."></Config>
+  <Config Name="TS_SOCKET" Target="TS_SOCKET" Default="/var/run/tailscale/tailscaled.sock" Display="advanced" Required="false" Type="Variable" Description="Path to the host's Tailscale daemon socket. Only used when Host Tailscale Socket is mapped. This lets DeployCat control the host's Tailscale (auth, status, connect) without running a duplicate daemon."></Config>
+  <Labels/>
+</Container>
