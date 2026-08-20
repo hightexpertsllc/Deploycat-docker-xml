@@ -8,7 +8,7 @@ DeployCat is a game server manager that makes it easy to create, configure, and 
 
 **Supported games:**
 - Minecraft (Java + Bedrock + Modded)
-- Steam games: ARK, The Isle, Rust, Palworld, Satisfactory, CS2, Valheim, V Rising, and 25+ more
+- Steam games: ARK, Rust, Palworld, Satisfactory, CS2, Valheim, V Rising, and 25+ more
 
 **Features:**
 - SteamCMD pre-installed
