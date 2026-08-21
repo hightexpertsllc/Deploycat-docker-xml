@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <CommunityApplications>
   <Profile>
-    DeployCat is a game server manager that makes it easy to create, configure, and manage multiple game servers from a single web interface. This repository contains the Unraid Community Apps template for the DeployCat Docker container.
+    DeployCat is the world's easiest game server manager — 1 paw installs, no claws required. 🐾
 
-    The DeployCat container supports Minecraft (Java + Bedrock + Modded), Steam games (ARK, Rust, Palworld, Satisfactory, CS2, Valheim, V Rising, and 25+ more).
+Create, configure, and manage multiple game servers from a single web interface without knocking anything off the table. Supports Minecraft (Java + Bedrock + Modded), plus Steam games like ARK, Rust, Palworld, Satisfactory, CS2, Valheim, V Rising, and 25+ more.
 
-    A free 3-day trial is included; a paid subscription is required for ongoing use. See https://deploycat.app for details.
+Free 3-day trial to sniff around. Then a paid subscription is required. Meow! for ongoing use. See https://deploycat.app for details.
 
     For support, join our Discord or visit the project page.
   </Profile>
