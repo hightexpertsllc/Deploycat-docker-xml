@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://discord.gg/gVcjQHfhUS</Support>
   <Project>https://deploycat.app</Project>
-  <Overview>DeployCat is a game server manager that makes it easy to create, configure, and manage multiple game servers from a web interface. Supports Minecraft (Java + Bedrock + Modded), Steam games (ARK, Rust, Palworld, Satisfactory, CS2, Valheim, V Rising, and 25+ more). Free 3-day trial, then paid subscription required.</Overview>
+  <Overview>DeployCat is the world's easiest game server manager — 1 paw installs, no claws required. Create, configure, and manage multiple game servers from a single web interface without knocking anything off the table. Supports Minecraft (Java + Bedrock + Modded), plus Steam games like ARK, Rust, Palworld, Satisfactory, CS2, Valheim, V Rising, and 25+ more.Free 3-day trial to sniff around. Then a paid subscription is required. Meow!</Overview>
   <Category>GameServers:</Category>
   <WebUI>http://[IP]:[PORT:8732]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/hightexpertsllc/Deploycat-docker-xml/main/Deploycat.xml</TemplateURL>
