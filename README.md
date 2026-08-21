@@ -264,7 +264,9 @@ Storage needs vary heavily by game — Minecraft needs ~2 GB, ARK needs ~130 GB.
 
 ## License
 
-DeployCat is proprietary software owned by Hightexperts LLC. By downloading, installing, or using this software, you agree to the [Terms of Service and End User License Agreement](https://deploycat.app/terms).
+**This repository** (the Unraid template files: `Deploycat.xml`, `ca_profile.xml`, `README.md`, `icon.png`) is licensed under the [MIT License](LICENSE).
+
+**The DeployCat container image and application software** are separate works, proprietary to Hightexperts LLC, and governed by the [Terms of Service and End User License Agreement](https://deploycat.app/terms). By downloading, installing, or using the DeployCat application, you agree to those terms.
 
 **Free trial:** Fully unlocked 3-day trial, no payment info required. After the trial, a paid subscription (monthly or annual) is required to continue.
 
